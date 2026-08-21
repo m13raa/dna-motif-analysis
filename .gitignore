@@ -22,13 +22,18 @@ __pycache__/
 .venv/
 
 # Raw/processed data
-data/raw/
-data/processed/
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
 
 # Generated results
-results/
+results/*
+!results/.gitkeep
 
 # Generated figures
 figures/*.png
 figures/*.pdf
 figures/*.svg
+!figures/.gitkeep
