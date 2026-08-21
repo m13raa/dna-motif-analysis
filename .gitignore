@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# R / RStudio
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# VS Code
+.vscode/
+
+# Conda
+.env
+.venv/
+
+# Raw/processed data
+data/raw/
+data/processed/
+
+# Generated results
+results/
+
+# Generated figures
+figures/*.png
+figures/*.pdf
+figures/*.svg
